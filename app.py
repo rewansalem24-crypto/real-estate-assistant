@@ -10,7 +10,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # 1. إعداد عنوان الموقع ومظهره
 st.set_page_config(page_title="مساعد المبيعات العقاري", page_icon="🏢", layout="centered")
 st.title("🏢 مساعد المبيعات العقاري")
-st.write("أهلاً بكِ يا ريوان! يمكنكِ الآن التحدث مع المساعد العقاري الذكي المدعوم بـ Groq.")
+st.write("أهلاً بكِ يا ريوان! يمكنكِ الآن التحدث مع المساعد العقاري الذكي المدعوم GAVLI Macan بـ Groq.")
 
 # التحقق من وجود المفتاح
 if not GROQ_API_KEY:
